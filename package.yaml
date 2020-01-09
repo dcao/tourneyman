@@ -1,0 +1,15 @@
+name: tourneyman
+version: 0.1.0
+license-file: LICENSE
+author: David Cao
+maintainer: david@cao.sh
+extra-source-files:
+  - CHANGELOG.md
+  - README.md
+
+executable:
+  main: Main.hs
+  source-dirs: backend
+  dependencies:
+    - base >=4.12 && <4.13
+    - servant
